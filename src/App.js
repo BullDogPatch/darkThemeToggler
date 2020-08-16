@@ -14,6 +14,9 @@ function App() {
     }
   };
 
+  /* Even though you're not supposed to use hooks in conditionals, I think you can use the setter in conditional but not call useState.
+   */
+
   return (
     <div className="App" style={theme === "light" ? lightTheme : darkTheme}>
       <h1>{theme}</h1>
