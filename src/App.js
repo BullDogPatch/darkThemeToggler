@@ -4,7 +4,6 @@ import "./styles.css";
 
 function App() {
   const [theme, setTheme] = useState("light");
-  console.log();
 
   const themeToggle = () => {
     if (theme === "light") {

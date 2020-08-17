@@ -1,11 +1,13 @@
 const lightTheme = {
   backgroundColor: "white",
-  color: "black"
+  color: "black",
+  transition: "all 0.3s linear"
 };
 
 const darkTheme = {
   backgroundColor: "#141d26",
-  color: "white"
+  color: "white",
+  transition: "all 0.3s linear"
 };
 
 const buttonTheme = {
@@ -15,7 +17,8 @@ const buttonTheme = {
   },
   dark: {
     backgroundColor: "red",
-    color: "white"
+    color: "white",
+    transition: "all 0.3s linear"
   }
 };
 
